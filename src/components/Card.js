@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { GithubContext } from "../context/context";
 import styled from "styled-components";
 import { MdBusiness, MdLocationOn, MdLink } from "react-icons/md";
+
 const Card = () => {
   const { githubUser } = useContext(GithubContext);
   const {
