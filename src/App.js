@@ -13,6 +13,9 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/iron">
+            <Logo />
+          </Route>
           <Route path="*">
             <Error />
           </Route>
